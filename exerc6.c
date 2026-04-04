@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 void approved (float nota){
     if(nota >= 6){
         printf("Aprovado\n");
