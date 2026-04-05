@@ -3,11 +3,11 @@ int dobro(int *a);
 
 int main(){
 
-int num;
-scanf("%i",&num);
+    int num;
+    scanf("%i",&num);
 
-dobro(&num);
-printf("%i", num);
+    dobro(&num);
+    printf("%i", num);
 
     return 0;
 } 
