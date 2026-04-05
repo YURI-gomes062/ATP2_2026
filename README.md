@@ -24,7 +24,7 @@
 #### https://github.com/YURI-gomes062/ATP2_2026/blob/main/exerc7.c
 
 ### exerc2.c : 8. Crie um algoritmo que utilize uma função para calcular o quadrado de um número e exiba o resultado.
-####
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/exerc8.c
 
 ### exerc2.c : 9. Desenvolva um programa modular que:
 ### ●​ Leia dois números;
