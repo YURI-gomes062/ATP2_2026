@@ -30,7 +30,7 @@
 ### ●​ Leia dois números;
 ### ●​ Use uma função para calcular a soma;
 ### ●​ Use um procedimento para exibir o resultado.
-####
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/exerc9.c
 
 ### exerc2.c : 10. Crie um conjunto de funções para:
 ### ●​ calcular soma
