@@ -37,4 +37,4 @@
 ### ●​ calcular média
 ### ●​ calcular maior valor​
 ### E utilize todas em um programa principal.
-####
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_3/exerc10.c
