@@ -10,7 +10,7 @@ int main(){
     
     return 0;
 }
-void t(int b){// Passagem por valor, a função copia o valor da variavel na main e atribue a outra variavel com escopo local.
+void t(int b){// Passagem por valor, a função copia o valor da variável na main e atribue a outra variavel com escopo local.
     b = b * 2;
     printf("%d",b);
 }
