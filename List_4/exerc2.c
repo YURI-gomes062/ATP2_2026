@@ -10,7 +10,7 @@ int main(){
     
     return 0;
 }
-void t(int b){
+void t(int b){// valor por refêrencia, a função copia o valor da variavel na main e atribue a outra variavel com escopo local.
     b = b * 2;
     printf("%d",b);
 }
