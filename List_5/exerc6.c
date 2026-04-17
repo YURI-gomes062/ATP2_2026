@@ -5,7 +5,6 @@ int main(){
     int num;
     scanf("%d", &num);
     
-
     return 0;
 }
 void vDouble(int *receita){
