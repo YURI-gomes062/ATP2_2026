@@ -71,3 +71,39 @@
 
 ### exerc10.c : 10. Analise e explique (em comentário) o comportamento de um código onde múltiplas funções alteram a mesma variável por referência. 
 #### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_4/exerc10.c
+
+
+## List_5
+
+### exerc1.c : 1. Implemente uma função recursiva que calcule o fatorial de um número.  
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc1.c
+
+### exerc2.c : 2. Crie uma função recursiva que calcule a soma de 1 até n. 
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc2.c
+
+### exerc3.c : 3. Desenvolva uma função recursiva para calcular a potência (base^expoente). 
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc3.c
+
+### exerc4.c : 4. Escreva uma função recursiva que conte quantos números existem de n até 0.
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc4.c
+
+### exerc5.c : 5. Crie um programa que utilize ponteiros para alterar o valor de uma variável.
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc5.c
+
+### exerc6.c : 6. Desenvolva um procedimento que receba um ponteiro e dobre o valor apontado.
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc6.c
+
+### exerc7.c : 7. Crie um algoritmo que declare um vetor e altere seus valores usando ponteiros. 
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc7.c
+
+### exerc8.c : 8. Desenvolva um programa que receba uma string e altere seu primeiro caractere. 
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc8.c
+
+### exerc9.c : 9. Compare (em código) uma função iterativa e uma recursiva para o mesmo problema (ex: soma ou fatorial).
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc9.c
+
+### exerc10.c : 10. Crie um algoritmo que: 
+### ● Receba um vetor; 
+### ● Utilize ponteiros para modificar seus valores; 
+### ● Exiba o vetor antes e depois. 
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_4/exerc10.c
