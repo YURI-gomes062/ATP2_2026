@@ -1,29 +1,30 @@
 #include <stdio.h>
-int recursive(int *nu);
-int interactive(int *nu);
+int alter_var(int *nu);
+int alter_varr(int *nu);
+
 
 int main(){
 
     int num;
-    scanf("%i", &num);
-    interactive(int *nu);
-    recursive(int *nu);
+    scanf("%d", &num);
+    alter_var(&num);
+    printf("%d\n",num);
+    alter_varr(&num);
+    printf("%d\n",num);
 
-    return ;
+    return 0;
 }
-int interactive(int *nu){
+int alter_var(int *nu){ // funcao recursiva que aumenta o valor do número.
 
-    int result = 1;
-    
-    for(int i = 1; i <= *nu ;i++){
-        result = result + 1;
-    }
-    return result;
-}
-int recursive(int *nu){
-
-    if(*nu = 1 || *nu == 0){
+    if(*nu >= 15){ // condicao para parar a funcao recursiva.
         return 0;
     }
-    return ((*nu) * recursive(*nu - 1));
+    return (*nu) + alter_var(nu + 1); // A funcao aumenta *nu + *nu  até *nu == 10.
+}
+int alter_varr(int *nu){ // funcao interativa que aumenta o valor do número por meio de estrutura de repetição.
+
+    while(*nu < 20 ){
+        (*nu)++;
+    }
+    return *nu;
 }
