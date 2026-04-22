@@ -106,4 +106,4 @@
 ### ● Receba um vetor; 
 ### ● Utilize ponteiros para modificar seus valores; 
 ### ● Exiba o vetor antes e depois. 
-#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_4/exerc10.c
+#### https://github.com/YURI-gomes062/ATP2_2026/blob/main/List_5/exerc10.c
