@@ -1,6 +1,7 @@
 #include <stdio.h>
 int greater_value(int h[]);
 
+
 int main(){
     int g[10] = {1,2,3,4,5,6,77,8,9,5};
     printf("%d\n", greater_value(g));
