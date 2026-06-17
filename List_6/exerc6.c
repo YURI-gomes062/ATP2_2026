@@ -1,4 +1,5 @@
-#include <stdioh>
+#include <stdio.h>
+int pairs_cont(int t, int g[]);
 
 int main(){
 
@@ -10,8 +11,13 @@ int main(){
 }
 int pairs_cont(int t, int g[]){
 
-    
+    int count = 0; // variavel contador
+    for(int i = 0; i < t; i++){
+        if(g[i] % 2 == 0){
+            count++;
+        }
+    }
 
-    return 0;
+    return count;
 
 }
