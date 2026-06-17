@@ -1,20 +1,22 @@
 #include <stdio.h>
-int greater_value(int h[]);
+int greater_value(int tamanho,int h[]);
 
 
 int main(){
     int g[10] = {1,2,3,4,5,6,77,8,9,5};
-    printf("%d\n", greater_value(g));
+    printf("%d\n", greater_value(10,g)); // inserir tamanho e o vetor que estamos trabalhando
 
     return 0;
 }
-int greater_value(int h[]){ //funcao retorna maior valor
+int greater_value(int tamanho,int h[]){ // Function that returns the largest value
 
-    int greatest_value = 0; // variavel que vai receber o valor do maior indice
-    for(int i = 0; i <= 10;i++){
-        if(*(h + i) >= greatest_value){// se o valor do indice do ponteiro for maior que o valor da variavel, então a variavel armazena esse valor.
-            greatest_value = *(h + i);
+    int large_number = 0; // variavel que recebera o maior número do array.
+
+    for(int i = 0; i <= tamanho; i++){ // lupin para rodar o número de vezes do tamanho do vetor.
+        if(large_number < h[i]){
+            large_number = h[i];
         }
     }
-    return greatest_value; // retorna o maior valor do vetor.
+
+    return large_number;
 }
